@@ -6,7 +6,7 @@
   
 This Python Script reads user/group data from an input file, processes the file line-by-line and adds each user to the system.
 
-*Students should add more to this section to describe the key components of the code.  Why are the imports necessary, what does the regex do, what is the purpose of the # in the input file.  Remove this line when done.*
+*. The program starts by looping through every line of the input file. The program utilizes regular expressions .match() in order to check if there is a commented-out line as well as split the input file line by the ":" .  After the line has been split and assigned to its corresponding value such as "password". Utilizing the os. system the user is created by executing the formatted line to the command line.*
   
 ## Operation
   
@@ -23,5 +23,4 @@ jdoe11:mypass:Doe:John:admins, reviewers
 The name of the input file is up to the user.  Convention is create-users.input
 
 ### Running the Script
-
-*Students should add a detailed description of how to run the code here. Do permissions on the file need to be set?  How you do run the script?  What version of Python?  Anything else you think would help the person who takes over your code.  Remove this line when complete.*
+* The program is formatted to be executed to be run as python 2. The file permissions should be changed to an executable using the command "chmod a+x create-users.py". running this file requires sudo access because you are dealing with users and groups. *
