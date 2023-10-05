@@ -18,7 +18,7 @@ The input file should have the following format:
 
 For example:
 
-jdoe11:mypass:Doe:John:admins, reviewers
+user04:pass04:Last04:First04:group01,group03
 
 The name of the input file is up to the user.  Convention is create-users.input
 
